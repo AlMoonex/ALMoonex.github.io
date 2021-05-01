@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://almoonex.github.io</id>
+    <title>Gridea</title>
+    <updated>2021-05-01T09:07:47.940Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://almoonex.github.io"/>
+    <link rel="self" href="https://almoonex.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://almoonex.github.io/images/avatar.png</logo>
+    <icon>https://almoonex.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[构造法]]></title>
+        <id>https://almoonex.github.io/post/gou-zao-fa/</id>
+        <link href="https://almoonex.github.io/post/gou-zao-fa/">
+        </link>
+        <updated>2021-05-01T02:45:12.000Z</updated>
+        <content type="html"><![CDATA[<p>构造法总结 - 基于2-5习题课</p>
+<p>1.几何类构造法：<br>
+<strong>几何类问题的主要思想在于从结论或条件出发，比较接近的一种构造法如何思考</strong><br>
+举个例子：<br>
+对于平面<strong>中点</strong>问题：<br>
+- <em>在平面上有n个点（n &gt; 2）,他们的中点至少有2n-3个</em><br>
+该如何思考呢？<br>
+我们的思路是首先从栗子分析，分析可能存在的最小值是什么，于是下一步的目的就是为了证明他<br>
+但是很显然这不会很简单，所以我们证明，<strong>对他连续的那一个最近的不符合刚刚那个得出的结论的值是不满足的</strong>就可以了。<br>
+2.数论类风格的题目<br>
+<strong>当一道题目与最小公倍数，质数合数扯上关系后，就不能用正常的几何类构造法来解决了</strong><br>
+举个例子：<br>
+对于<strong>约数乘积关系问题</strong>：<br>
+- <em>记d(a)是a的约数的个数，求证：d(a * b) &gt;=  d(a) + d(b)  - 1</em><br>
+好嘛！万恶的数论<br>
+这个结论自然是很有直觉性质的，但是有一些难证<br>
+大部分人先想到了a和b都有一个重叠的因数1，所以-1<br>
+但是和&gt;= 扯不上关系<br>
+不就是因为da和db也会有重合吗？<br>
+3.组合风格<br>
+<strong>组合 + 组合， 双倍快乐</strong><br>
+经常会和<strong>鸽巢原理 /  拉姆塞定理 /  特殊原理 / 构造法（当然了）/ 数学归纳法</strong>联系起来<br>
+比如说爆难 的习题课例题七</p>
+<pre><code>最后总结：构造法的总体思路就是：
+**首先， 分析条件，用一些例子代入来寻找规律**
+**第二， 用得到的规律猜测满足条件的栗子或者构造，如果毫无头绪那么先确定构造目标**
+**第三， 合适地运用其他结论，构造出满足条件的情况**
+**最后，如果要说明这种情况的唯一特殊性， 证明其他时候不可以就行了😃**
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://almoonex.github.io/post/hello-gridea/</id>
+        <link href="https://almoonex.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
