@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://almoonex.github.io</id>
     <title>狗头小站</title>
-    <updated>2021-05-14T13:32:26.147Z</updated>
+    <updated>2021-05-14T23:45:55.571Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://almoonex.github.io"/>
     <link rel="self" href="https://almoonex.github.io/atom.xml"/>
@@ -13,8 +13,8 @@
     <rights>All rights reserved 2021, 狗头小站</rights>
     <entry>
         <title type="html"><![CDATA[新狗头们须知：]]></title>
-        <id>https://almoonex.github.io/post/xin-gou-tou-men-xu-zhi/</id>
-        <link href="https://almoonex.github.io/post/xin-gou-tou-men-xu-zhi/">
+        <id>https://almoonex.github.io/post/rules/</id>
+        <link href="https://almoonex.github.io/post/rules/">
         </link>
         <updated>2021-05-14T12:52:35.000Z</updated>
         <content type="html"><![CDATA[<p>请注意不要传播该网站！<br>
@@ -104,6 +104,30 @@ e-mail：2370406955@qq.com</p>
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://almoonex.github.io/post/about/</id>
+        <link href="https://almoonex.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到ALEX的小站🤝</p>
+</blockquote>
+<h2 id="关于本站-数学总结区">🏠 关于本站  数学总结区</h2>
+<h2 id="博主是谁-alex-yu-with-his-moon">👨‍💻 博主是谁 Alex Yu With His Moon</h2>
+<h2 id="推荐-几个网站-geogebraorg绘图软件">⛹ 推荐 几个网站：   geogebra.org（绘图软件）</h2>
+<h2 id="wwwtedcom-学习视频">www.ted.com （学习视频）</h2>
+<h2 id="wwwxueersicom-学而思">www.xueersi.com （学而思）</h2>
+<h2 id="wwwbilibilicom-你懂得b站">www.bilibili.com （你懂得b站）</h2>
+<h2 id="wwwgithubcom-程序交流网站本站建立基础">www.github.com  （程序交流网站，本站建立基础）</h2>
+<h2 id="wwwluogucomcnwwwluoguorg-洛谷">www.luogu.com.cn/www.luogu.org （洛谷）</h2>
+<h2 id="wwwxkcdcom-一个非常有意思的外网不是那种玩意儿">www.xkcd.com （一个非常有意思的外网）<sub>不是那种玩意儿</sub></h2>
+<h2 id="对于用google浏览器的用google打开这个chromedino">对于用Google浏览器的用Google打开这个：chrome://dino/</h2>
+<h2 id="">...</h2>
+<h2 id="联系我呀-mail-2370406955qqcom">📬 联系我呀  mail: 2370406955@qq.com</h2>
+<h2 id="skypealex-yu">skype:Alex Yu</h2>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://almoonex.github.io/post/hello-gridea/</id>
         <link href="https://almoonex.github.io/post/hello-gridea/">
@@ -117,7 +141,7 @@ e-mail：2370406955@qq.com</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
 <a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
+<a href="https://xueersi.com">学而思</a></p>
 <h2 id="特性">特性👇</h2>
 <p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
 <p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
