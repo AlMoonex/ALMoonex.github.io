@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://almoonex.github.io</id>
     <title>狗头小站</title>
-    <updated>2021-05-03T05:34:24.254Z</updated>
+    <updated>2021-05-14T11:29:08.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://almoonex.github.io"/>
     <link rel="self" href="https://almoonex.github.io/atom.xml"/>
@@ -11,6 +11,30 @@
     <logo>https://almoonex.github.io/images/avatar.png</logo>
     <icon>https://almoonex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 狗头小站</rights>
+    <entry>
+        <title type="html"><![CDATA[西姆松定理、阿基米德折弦定理和蝴蝶定理]]></title>
+        <id>https://almoonex.github.io/post/xi-mu-song-ding-li-a-ji-mi-de-zhe-xian-ding-li-he-hu-die-ding-li/</id>
+        <link href="https://almoonex.github.io/post/xi-mu-song-ding-li-a-ji-mi-de-zhe-xian-ding-li-he-hu-die-ding-li/">
+        </link>
+        <updated>2021-05-14T10:57:43.000Z</updated>
+        <content type="html"><![CDATA[<p>一、西姆松定理<br>
+<strong>内容：过三角形外接圆上一点作三边的垂线，那么三个垂足共线</strong>!<br>
+<a href="https://almoonex.github.io/post-images/1620990198373.png">西姆松定理 - 图片</a><br>
+<em>证明</em><br>
+等价于证明∠EFG + ∠EFH = 180<br>
+可以利用以下条件：ECBD共圆，EFDH、EFGC、EGBH共圆<br>
+这些共圆体现出了一些角度的相等关系，角度大挪移。<br>
+比如下面这种思路：CFG-&gt;CEG, DFH-&gt;DEH<br>
+因为ECBD和EGBH共圆，∠HED = ∠CEG<br>
+所以说以F为顶点的两个对顶角相等所以说就得到了一个共线的结论<br>
+由此其实我们也可以得到一个新的证明共线的方法也就是对顶角相等<br>
+据说这个定理有hui常hui常多的证明方法的<sub>但是我不会了</sub><br>
+该定理推论：<br>
+-1) 两条西姆松线的夹角等于两个圆上的点所对的劣弧圆周角<br>
+-2) 该定理的逆定理可以作为一个证明四点共圆的方法。<br>
+-3) 该定理的广义定理可以改成是角度相同（但不一定是90°）时满足的结论</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[English Practicing]]></title>
         <id>https://almoonex.github.io/post/english-practicing/</id>
