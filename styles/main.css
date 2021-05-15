@@ -993,18 +993,22 @@ td {
       }
     
       .main {
-        background: #bac8ff;
+        background: #212529;
       }
     
       body {
-        background: #bac8ff;
+        background: #212529;
       }
     
       body {
-        color: #212529;
+        color: #f1f3f5;
       }
     
       a {
-        color: #ff8787;
+        color: #ced4da;
+      }
+    
+      a:hover {
+        color: #ffd8a8;
       }
     
