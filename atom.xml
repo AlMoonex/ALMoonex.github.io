@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://almoonex.github.io</id>
     <title>狗头小站</title>
-    <updated>2021-05-15T12:57:36.180Z</updated>
+    <updated>2021-05-15T13:52:29.838Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://almoonex.github.io"/>
     <link rel="self" href="https://almoonex.github.io/atom.xml"/>
     <subtitle>Alex is always here
-温故而知新</subtitle>
+温故而知新&lt;a href=&quot;https://almoonex.github.io/post/about&quot; target=&quot;_blank&quot;&gt; ABOUT&lt;/a&gt;</subtitle>
     <logo>https://almoonex.github.io/images/avatar.png</logo>
     <icon>https://almoonex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 狗头小站</rights>
@@ -32,11 +32,19 @@ e-mail：2370406955@qq.com</p>
         <link href="https://almoonex.github.io/post/xi-mu-song-ding-li-a-ji-mi-de-zhe-xian-ding-li-he-hu-die-ding-li/">
         </link>
         <updated>2021-05-14T10:57:43.000Z</updated>
-        <summary type="html"><![CDATA[<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">感</mi><mi mathvariant="normal">谢</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">本</mi><mi mathvariant="normal">文</mi><mi mathvariant="normal">所</mi><mi mathvariant="normal">用</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">绘</mi><mi mathvariant="normal">图</mi><mi mathvariant="normal">软</mi><mi mathvariant="normal">件</mi><mi mathvariant="normal">为</mi><mi>G</mi><mi>e</mi><mi>o</mi><mi>G</mi><mi>e</mi><mi>B</mi><mi>r</mi><mi>a</mi></mrow><annotation encoding="application/x-tex">感谢：本文所用的绘图软件为GeoGeBra
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">谢</span><span class="mord cjk_fallback">：</span><span class="mord cjk_fallback">本</span><span class="mord cjk_fallback">文</span><span class="mord cjk_fallback">所</span><span class="mord cjk_fallback">用</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">绘</span><span class="mord cjk_fallback">图</span><span class="mord cjk_fallback">软</span><span class="mord cjk_fallback">件</span><span class="mord cjk_fallback">为</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault">o</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span></span></span></span></span></p>
+        <summary type="html"><![CDATA[<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">感</mi><mi mathvariant="normal">谢</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">本</mi><mi mathvariant="normal">文</mi><mi mathvariant="normal">所</mi><mi mathvariant="normal">用</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">绘</mi><mi mathvariant="normal">图</mi><mi mathvariant="normal">软</mi><mi mathvariant="normal">件</mi><mi mathvariant="normal">为</mi><mi>G</mi><mi>e</mi><mi>o</mi><mi>G</mi><mi>e</mi><mi>B</mi><mi>r</mi><mi>a</mi></mrow><annotation encoding="application/x-tex">感谢：本文所用的绘图软件为GeoGeBra</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">谢</span><span class="mord cjk_fallback">：</span><span class="mord cjk_fallback">本</span><span class="mord cjk_fallback">文</span><span class="mord cjk_fallback">所</span><span class="mord cjk_fallback">用</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">绘</span><span class="mord cjk_fallback">图</span><span class="mord cjk_fallback">软</span><span class="mord cjk_fallback">件</span><span class="mord cjk_fallback">为</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault">o</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span></span></span></span></p>
+<p>Con:</p>
+<pre><code>西姆松定理
+阿基米德折弦定理
+蝴蝶定理
+</code></pre>
 ]]></summary>
-        <content type="html"><![CDATA[<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">感</mi><mi mathvariant="normal">谢</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">本</mi><mi mathvariant="normal">文</mi><mi mathvariant="normal">所</mi><mi mathvariant="normal">用</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">绘</mi><mi mathvariant="normal">图</mi><mi mathvariant="normal">软</mi><mi mathvariant="normal">件</mi><mi mathvariant="normal">为</mi><mi>G</mi><mi>e</mi><mi>o</mi><mi>G</mi><mi>e</mi><mi>B</mi><mi>r</mi><mi>a</mi></mrow><annotation encoding="application/x-tex">感谢：本文所用的绘图软件为GeoGeBra
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">谢</span><span class="mord cjk_fallback">：</span><span class="mord cjk_fallback">本</span><span class="mord cjk_fallback">文</span><span class="mord cjk_fallback">所</span><span class="mord cjk_fallback">用</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">绘</span><span class="mord cjk_fallback">图</span><span class="mord cjk_fallback">软</span><span class="mord cjk_fallback">件</span><span class="mord cjk_fallback">为</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault">o</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span></span></span></span></span></p>
+        <content type="html"><![CDATA[<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">感</mi><mi mathvariant="normal">谢</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">本</mi><mi mathvariant="normal">文</mi><mi mathvariant="normal">所</mi><mi mathvariant="normal">用</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">绘</mi><mi mathvariant="normal">图</mi><mi mathvariant="normal">软</mi><mi mathvariant="normal">件</mi><mi mathvariant="normal">为</mi><mi>G</mi><mi>e</mi><mi>o</mi><mi>G</mi><mi>e</mi><mi>B</mi><mi>r</mi><mi>a</mi></mrow><annotation encoding="application/x-tex">感谢：本文所用的绘图软件为GeoGeBra</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">谢</span><span class="mord cjk_fallback">：</span><span class="mord cjk_fallback">本</span><span class="mord cjk_fallback">文</span><span class="mord cjk_fallback">所</span><span class="mord cjk_fallback">用</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">绘</span><span class="mord cjk_fallback">图</span><span class="mord cjk_fallback">软</span><span class="mord cjk_fallback">件</span><span class="mord cjk_fallback">为</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault">o</span><span class="mord mathdefault">G</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span></span></span></span></p>
+<p>Con:</p>
+<pre><code>西姆松定理
+阿基米德折弦定理
+蝴蝶定理
+</code></pre>
 <!-- more -->
 <p>一、西姆松定理<br>
 <strong>内容：过三角形外接圆上一点作三边的垂线，那么三个垂足共线</strong><br>
@@ -116,14 +124,14 @@ e-mail：2370406955@qq.com</p>
 </blockquote>
 <h2 id="关于本站-数学总结区">🏠 关于本站  数学总结区</h2>
 <h2 id="博主是谁-alex-yu-with-his-moon">👨‍💻 博主是谁 Alex Yu With His Moon</h2>
-<h2 id="推荐-几个网站-geogebraorg绘图软件">⛹ 推荐 几个网站：   geogebra.org（绘图软件）</h2>
-<h2 id="wwwtedcom-学习视频">www.ted.com （学习视频）</h2>
-<h2 id="wwwxueersicom-学而思">www.xueersi.com （学而思）</h2>
-<h2 id="wwwbilibilicom-你懂得b站">www.bilibili.com （你懂得b站）</h2>
-<h2 id="wwwgithubcom-程序交流网站本站建立基础">www.github.com  （程序交流网站，本站建立基础）</h2>
-<h2 id="wwwluogucomcnwwwluoguorg-洛谷">www.luogu.com.cn/www.luogu.org （洛谷）</h2>
-<h2 id="wwwxkcdcom-一个非常有意思的外网不是那种玩意儿">www.xkcd.com （一个非常有意思的外网）<sub>不是那种玩意儿</sub></h2>
-<h2 id="对于用google浏览器的用google打开这个chromedino">对于用Google浏览器的用Google打开这个：chrome://dino/</h2>
+<h2 id="推荐-几个网站-geogebra绘图软件">⛹ 推荐 几个网站：   <a href="geogebra.org">GeoGeBra</a>（绘图软件）</h2>
+<h2 id="ted-ed"><a href="www.ted.com">Ted-Ed</a> （学习视频）</h2>
+<h2 id="xes"><a href="www.xueersi.com">XES</a> （学而思）</h2>
+<h2 id="b站"><a href="www.bilibili.com">b站</a> （你懂得b站）</h2>
+<h2 id="git"><a href="www.github.com">Git</a>  （程序交流网站，本站建立基础）</h2>
+<h2 id="luogu"><a href="www.luogu.com.cn/www.luogu.org">luogu</a> （洛谷）</h2>
+<h2 id="xkcd"><a href="www.xkcd.com">xkcd</a> （一个非常有意思的外网）<sub>不是那种玩意儿</sub></h2>
+<h2 id="对于用google浏览器的用google打开这个dino">对于用Google浏览器的用Google打开这个：<a href="chrome://dino/">dino</a></h2>
 <h2 id="">...</h2>
 <h2 id="联系我呀-mail-2370406955qqcom">📬 联系我呀  mail: 2370406955@qq.com</h2>
 <h2 id="skypealex-yu">skype:Alex Yu</h2>

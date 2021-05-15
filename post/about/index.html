@@ -1,13 +1,26 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>关于 | 狗头小站</title>
-<link rel="shortcut icon" href="https://almoonex.github.io/favicon.ico?v=1621083453585">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://almoonex.github.io/favicon.ico?v=1621086547319">
 <link rel="stylesheet" href="https://almoonex.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | 狗头小站 - Atom Feed" href="https://almoonex.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -16,218 +29,171 @@
 
 🏠 关于本站  数学总结区
 👨‍💻 博主是谁 Alex Yu With His Moon
-⛹ 推荐 几个网站：   geogebra.org（绘图软件）
-www.ted.com （学习视频）
-www.x..." />
+⛹ 推荐 几个网站：   GeoGeBra（绘图软件）
+Ted-Ed （学习视频）
+XES （学而思）
+b站 （..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://almoonex.github.io">
-  <img class="avatar" src="https://almoonex.github.io/images/avatar.png?v=1621083453585" alt="">
-  </a>
-  <h1 class="site-title">
-    狗头小站
-  </h1>
-  <p class="site-description">
-    Alex is always here
-温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://almoonex.github.io">
+        <img src="https://almoonex.github.io/images/avatar.png?v=1621086547319" class="site-logo">
+        <h1 class="site-title">狗头小站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Alex is always here
+温故而知新<a href="https://almoonex.github.io/post/about" target="_blank"> ABOUT</a>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea with ALEX</a> | <a class="rss" href="https://almoonex.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              关于
-            </h2>
-            <div class="post-info">
-              <span>
-                2019-01-25
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">关于</h2>
+            <div class="post-date">2019-01-25</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <blockquote>
+            <div class="post-content" v-pre>
+              <blockquote>
 <p>欢迎来到ALEX的小站🤝</p>
 </blockquote>
 <h2 id="关于本站-数学总结区">🏠 关于本站  数学总结区</h2>
 <h2 id="博主是谁-alex-yu-with-his-moon">👨‍💻 博主是谁 Alex Yu With His Moon</h2>
-<h2 id="推荐-几个网站-geogebraorg绘图软件">⛹ 推荐 几个网站：   geogebra.org（绘图软件）</h2>
-<h2 id="wwwtedcom-学习视频">www.ted.com （学习视频）</h2>
-<h2 id="wwwxueersicom-学而思">www.xueersi.com （学而思）</h2>
-<h2 id="wwwbilibilicom-你懂得b站">www.bilibili.com （你懂得b站）</h2>
-<h2 id="wwwgithubcom-程序交流网站本站建立基础">www.github.com  （程序交流网站，本站建立基础）</h2>
-<h2 id="wwwluogucomcnwwwluoguorg-洛谷">www.luogu.com.cn/www.luogu.org （洛谷）</h2>
-<h2 id="wwwxkcdcom-一个非常有意思的外网不是那种玩意儿">www.xkcd.com （一个非常有意思的外网）<sub>不是那种玩意儿</sub></h2>
-<h2 id="对于用google浏览器的用google打开这个chromedino">对于用Google浏览器的用Google打开这个：chrome://dino/</h2>
+<h2 id="推荐-几个网站-geogebra绘图软件">⛹ 推荐 几个网站：   <a href="geogebra.org">GeoGeBra</a>（绘图软件）</h2>
+<h2 id="ted-ed"><a href="www.ted.com">Ted-Ed</a> （学习视频）</h2>
+<h2 id="xes"><a href="www.xueersi.com">XES</a> （学而思）</h2>
+<h2 id="b站"><a href="www.bilibili.com">b站</a> （你懂得b站）</h2>
+<h2 id="git"><a href="www.github.com">Git</a>  （程序交流网站，本站建立基础）</h2>
+<h2 id="luogu"><a href="www.luogu.com.cn/www.luogu.org">luogu</a> （洛谷）</h2>
+<h2 id="xkcd"><a href="www.xkcd.com">xkcd</a> （一个非常有意思的外网）<sub>不是那种玩意儿</sub></h2>
+<h2 id="对于用google浏览器的用google打开这个dino">对于用Google浏览器的用Google打开这个：<a href="chrome://dino/">dino</a></h2>
 <h2 id="">...</h2>
 <h2 id="联系我呀-mail-2370406955qqcom">📬 联系我呀  mail: 2370406955@qq.com</h2>
 <h2 id="skypealex-yu">skype:Alex Yu</h2>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99-%E6%95%B0%E5%AD%A6%E6%80%BB%E7%BB%93%E5%8C%BA">🏠 关于本站  数学总结区</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81-alex-yu-with-his-moon">👨‍💻 博主是谁 Alex Yu With His Moon</a></li>
-<li><a href="#%E6%8E%A8%E8%8D%90-%E5%87%A0%E4%B8%AA%E7%BD%91%E7%AB%99-geogebraorg%E7%BB%98%E5%9B%BE%E8%BD%AF%E4%BB%B6">⛹ 推荐 几个网站：   geogebra.org（绘图软件）</a></li>
-<li><a href="#wwwtedcom-%E5%AD%A6%E4%B9%A0%E8%A7%86%E9%A2%91">www.ted.com （学习视频）</a></li>
-<li><a href="#wwwxueersicom-%E5%AD%A6%E8%80%8C%E6%80%9D">www.xueersi.com （学而思）</a></li>
-<li><a href="#wwwbilibilicom-%E4%BD%A0%E6%87%82%E5%BE%97b%E7%AB%99">www.bilibili.com （你懂得b站）</a></li>
-<li><a href="#wwwgithubcom-%E7%A8%8B%E5%BA%8F%E4%BA%A4%E6%B5%81%E7%BD%91%E7%AB%99%E6%9C%AC%E7%AB%99%E5%BB%BA%E7%AB%8B%E5%9F%BA%E7%A1%80">www.github.com  （程序交流网站，本站建立基础）</a></li>
-<li><a href="#wwwluogucomcnwwwluoguorg-%E6%B4%9B%E8%B0%B7">www.luogu.com.cn/www.luogu.org （洛谷）</a></li>
-<li><a href="#wwwxkcdcom-%E4%B8%80%E4%B8%AA%E9%9D%9E%E5%B8%B8%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E5%A4%96%E7%BD%91%E4%B8%8D%E6%98%AF%E9%82%A3%E7%A7%8D%E7%8E%A9%E6%84%8F%E5%84%BF">www.xkcd.com （一个非常有意思的外网）~不是那种玩意儿~</a></li>
-<li><a href="#%E5%AF%B9%E4%BA%8E%E7%94%A8google%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%94%A8google%E6%89%93%E5%BC%80%E8%BF%99%E4%B8%AAchromedino">对于用Google浏览器的用Google打开这个：chrome://dino/</a></li>
-<li><a href="#">...</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80-mail-2370406955qqcom">📬 联系我呀  mail: 2370406955@qq.com</a></li>
-<li><a href="#skypealex-yu">skype:Alex Yu</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://almoonex.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://almoonex.github.io/post/hello-gridea/">
-              <h3 class="post-title">
-                Hello Gridea
-              </h3>
-            </a>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
-        
 
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '712e70ccdca754af5f90',
-    clientSecret: '5f0763374837a0c466da00aa381ae48fab3d8761',
-    repo: 'almoonex.github.io',
-    owner: 'almoonex',
-    admin: ['almoonex'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea with ALEX</a>
-  <a class="rss" href="https://almoonex.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '712e70ccdca754af5f90',
+        clientSecret: '5f0763374837a0c466da00aa381ae48fab3d8761',
+        repo: 'almoonex.github.io',
+        owner: 'almoonex',
+        admin: ['almoonex'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
