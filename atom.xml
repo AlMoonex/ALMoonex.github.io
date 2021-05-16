@@ -2,12 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://almoonex.github.io</id>
     <title>狗头小站</title>
-    <updated>2021-05-16T02:03:32.281Z</updated>
+    <updated>2021-05-16T02:10:32.585Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://almoonex.github.io"/>
     <link rel="self" href="https://almoonex.github.io/atom.xml"/>
-    <subtitle>Alex is always here
-温故而知新&lt;a href=&quot;https://almoonex.github.io/post/about&quot; target=&quot;_blank&quot;&gt; ABOUT&lt;/a&gt;</subtitle>
+    <subtitle>Alex
+&lt;a href=&quot;https://almoonex.github.io/post/about&quot; target=&quot;_blank&quot;&gt; ABOUT&lt;/a&gt;
+Time:
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;title&gt;HTML&lt;/title&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+ 
+  &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+    &lt;div id=&quot;times&quot;&gt;
+    &lt;/div&gt;
+   &lt;script type=&quot;text/javascript&quot;&gt;
+     function  getD1(){
+         var date=new Date();
+         var d1=date.toLocaleString();
+         var div1=document.getElementById(&quot;times&quot;);
+         div1.innerHTML =d1;
+ 
+     }
+ 
+     setInterval(&quot;getD1();&quot;,1000);
+ 
+    &lt;/script&gt;
+ 
+ &lt;/body&gt;
+&lt;/html&gt;
+</subtitle>
     <logo>https://almoonex.github.io/images/avatar.png</logo>
     <icon>https://almoonex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 狗头小站</rights>
