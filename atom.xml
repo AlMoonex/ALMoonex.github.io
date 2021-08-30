@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://almoonex.github.io</id>
     <title>狗头小站</title>
-    <updated>2021-07-04T11:08:16.891Z</updated>
+    <updated>2021-08-30T05:41:49.878Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://almoonex.github.io"/>
     <link rel="self" href="https://almoonex.github.io/atom.xml"/>
@@ -12,6 +12,68 @@
     <logo>https://almoonex.github.io/images/avatar.png</logo>
     <icon>https://almoonex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 狗头小站</rights>
+    <entry>
+        <title type="html"><![CDATA[三角函数的公式及其应用（1）（公告）]]></title>
+        <id>https://almoonex.github.io/post/san-jiao-han-shu-de-gong-shi-ji-qi-ying-yong-1gong-gao/</id>
+        <link href="https://almoonex.github.io/post/san-jiao-han-shu-de-gong-shi-ji-qi-ying-yong-1gong-gao/">
+        </link>
+        <updated>2021-08-30T03:14:26.000Z</updated>
+        <content type="html"><![CDATA[<p>首先，这个学期秋季2021年秋季，我会开始更新函数的内容<br>
+各位观众姥爷们你们好我是月亮啊</p>
+<p>好的讲正题<br>
+<strong>三角函数</strong><br>
+首先我们先来讨论单一角的三角函数关系，也就是常说的诱导公式。<br>
+诱导公式连接了在角度上有特殊关系的三角函数值，这意味着类似于π会大量地出现</p>
+<p><strong>诱 导 公 式</strong><br>
+诱导公式的口诀：奇变偶不变，符号看象限<br>
+我们来解释一下：<br>
+第一句之中的奇偶分别表示增加或减少的角度是π/2的k倍，其中k的奇偶性<br>
+而变与不变表示的是三角函数名的变化，sin变cos之类的<br>
+第二句是指将前后函数对比，从象限角来看它的正负，是负就加负号<br>
+是不是很简单呢<br>
+举个例子：<br>
+sin(270° - θ) = （首先270是90的3倍，奇数，变成cos）cos(-θ) = （当θ时锐角的时候整个角是第四象限角，它的sin小于0，加负号）-cos(θ)</p>
+<p>然后我们来讨论下多角度的三角函数公式，最为重要的就是<strong>和的三角函数值</strong>了：</p>
+<p>cos(x + y)=cosycosx - sinx siny</p>
+<p>如何证明？单位圆<br>
+<img src="https://almoonex.github.io/post-images/1630296825001.png" alt="这是一个单位圆" loading="lazy"><br>
+然后我作出α和β,把一整个三角形那么一转：<br>
+<img src="https://almoonex.github.io/post-images/1630298320948.png" alt="" loading="lazy"><br>
+那么这个下面的角度就是α<br>
+所以h=j对吧<br>
+所以直接用平面内距离公式列出一个等式，在这之前要先把他们点用三角表示出来：（希腊字母太难打，用x表示α，y表示β）<br>
+<img src="https://almoonex.github.io/post-images/1630298740589.png" alt="似乎有了一点点眉目呢" loading="lazy"><br>
+所以说开始狂推：<br>
+<img src="https://almoonex.github.io/post-images/1630299606931.png" alt="" loading="lazy"><br>
+这就整出来了！</p>
+<p>那么结合刚刚那个恒等式（我们以后就叫他<strong>勾股小等式</strong>）和代换的方法很容易可以得到一系列的公式:<br>
+<img src="https://almoonex.github.io/post-images/1630299840884.png" alt="" loading="lazy"><br>
+我们称之为核心公式，或两角和差的正余弦公式<br>
+那么正切就直接sin除以cos就可以了：<br>
+<img src="https://almoonex.github.io/post-images/1630300212432.png" alt="" loading="lazy"><br>
+那么上述公式如果x=y会发生什么呢？<br>
+<strong>二倍角公式</strong>！<br>
+<img src="https://almoonex.github.io/post-images/1630300420088.png" alt="" loading="lazy"><br>
+深挖一下二倍角公式，再结合勾股小等式：<br>
+<img src="https://almoonex.github.io/post-images/1630300919088.png" alt="" loading="lazy"><br>
+再推！<br>
+<img src="https://almoonex.github.io/post-images/1630301186101.png" alt="" loading="lazy"><br>
+以上公式为<strong>万能公式</strong>，理论上所有的题都能做了，因为我们可以把所有的三角函数统一用tan来表示<br>
+可是计算可能会很麻烦</p>
+<p>接下来是<strong>积化和差公式</strong>，证明由核心公式一步出：<br>
+<img src="https://almoonex.github.io/post-images/1630301442950.png" alt="哇偶但是好难记" loading="lazy"><br>
+看上去很难记，怎么办呢？<br>
+全新宇宙超智能积化和差无敌口诀，送给你！<br>
+正加正，正在前。正减正，余在先。<br>
+余加余，余并肩。余减余，负正弦<br>
+哇偶！<br>
+那么令x+y = a,x-y=b，得到了：<br>
+<img src="https://almoonex.github.io/post-images/1630301710467.png" alt="" loading="lazy"><br>
+写一个应该够了，这就是<strong>积化和差公式</strong></p>
+<p>好的本期结束，相信你也可以写出三倍角公式了吧，下期讲讲辅助角公式和上述公式的一些应用<br>
+咱们下次再见</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[妙题大赏系列 - 1]]></title>
         <id>https://almoonex.github.io/post/miao-ti-da-shang-xi-lie-1/</id>
